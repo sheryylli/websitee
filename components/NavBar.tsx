@@ -23,14 +23,15 @@ const NavBar = () => {
             <a>~/projects</a>
           </Link>
           <Link href={`/${postsDir}`}>
-            <a>~/{postsDir}</a>
+            <a>~/{blog}</a>
+          </Link>
+          <Link href={`/${postsDir}`}>
+            <a>~/{scrapbook}</a>
           </Link>
           <Link href={`/photos`}>
             <a>~/photos</a>
           </Link>
-          <Link href={`/${tagsDir}`}>
-            <a>~/{tagsDir}</a>
-          </Link>
+ 
         </div>
         <div className={`navbar flex items-center space-x-2 sm:space-x-6`}>
           <DarkModeToggle />
